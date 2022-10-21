@@ -14,4 +14,11 @@ export class NoComunesComponent {
     'masculino': 'invitarlo',
     'femenino': 'invitarla'
   }
+
+  clientes: string[] = ['Maria', 'Juan', 'Ana'];
+  clientesMapa = {
+    '=0': 'no tenemos ningún cliente esperando.',
+    '=1': 'tenemos un cliente esperando.',
+    'other': 'tenemos # clientes esperando.'
+  }
 }
